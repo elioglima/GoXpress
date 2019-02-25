@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	{{ .HtmlHead }}
+</head>
+<body>
+<form method="post" id="FormGeral" name="FormGeral">
+<div class="wrapper">
+    {{ .HtmlInputHidden }}
+    <div class="sidebar" data-background-color="white" data-active-color="danger">        
+    <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="{{ .HttpHome }}" class="simple-text">
+                    {{.PageTitle}}
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a>
+                        <i class="ti-bell"></i>
+                        <p>Mensagem</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ .HttpHome }}/Acesso">
+                        <i class="ti-user"></i>
+                        <p>Acesso</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ .HttpHome }}/Map">
+                        <i class="ti-map"></i>
+                        <p>Maps</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Acesso ao Sistema</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                
+                    
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="header">
+                                <p class="category">Informe o usuário e senha</p>
+                                <br>
+                                <h4 class="title">Usuário ou e-mail
+                                    <input type="text" id="usuario" name="usuario" class="form-control" value="elio.lima"> 
+                                </h4>
+                                <h4 class="title">Senha de Acesso
+                                    <input type="password" id="senha" name="senha" class="form-control" value="AB102030"> 
+                                </h4>
+                                <h4 class="title">
+                                    <input type="button" name="btEntrar" id="btEntrar" value="Entrar">
+                                </h4>
+                            </div>
+                            <div class="content">
+                                <div class="footer">
+                                        <hr>
+                                    <div class="stats">
+                                        <i class="ti-reload"></i> {{.DataProcessameto}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+
+                        <li>
+                            <a href="{{ .HttpHome }}/Acesso">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://blog.creative-tim.com">
+                               Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.creative-tim.com/license">
+                                Licenses
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script>, <a href="http://www.maxtime.info">Maxtime Info</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+</form>
+
+</body>
+
+	{{ .HtmlScript }}    
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+        	$('#btEntrar').click(function() {
+                enviar('acesso')
+            });
+    	});
+	</script>
+
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/12/09 15:33:18.000.237,=C:\Users\Elio Lima\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/12/09 15:33:39.000.342,C:\Users\Elio Lima\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Elio Lima\Desktop\ToolsDSB\uPrincipal.pas</Transaction>
+    <Transaction>2018/12/09 15:33:39.000.342,C:\Users\Elio Lima\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Elio Lima\Desktop\ToolsDSB\uPrincipal.dfm</Transaction>
+    <Transaction>2018/12/09 15:33:45.000.812,C:\Users\Elio Lima\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Elio Lima\Desktop\ToolsDSB\ToolsDSB.dproj</Transaction>
+    <Transaction>2018/12/09 15:42:21.000.102,=C:\Users\Elio Lima\Desktop\ToolsDSB\Unit2.pas</Transaction>
+    <Transaction>2018/12/09 15:42:30.000.738,C:\Users\Elio Lima\Desktop\ToolsDSB\Unit2.pas=C:\Users\Elio Lima\Desktop\ToolsDSB\uCNAB.pas</Transaction>
+    <Transaction>2018/12/09 15:42:30.000.738,C:\Users\Elio Lima\Desktop\ToolsDSB\Unit2.dfm=C:\Users\Elio Lima\Desktop\ToolsDSB\uCNAB.dfm</Transaction>
+    <Transaction>2018/12/09 16:08:11.000.649,=C:\Users\Elio Lima\Desktop\ToolsDSB\Unit1.pas</Transaction>
+    <Transaction>2018/12/09 16:08:32.000.497,C:\Users\Elio Lima\Desktop\ToolsDSB\uLoadFile.pas=C:\Users\Elio Lima\Desktop\ToolsDSB\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
