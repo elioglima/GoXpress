@@ -1,4 +1,4 @@
-# goxpress
+# GoXpress
 Webservice em golang - Gerengiamento de mensagens de negociações 
 
 ## WahstsApps
