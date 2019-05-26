@@ -1,7 +1,7 @@
 package backend
 
 import (
-	"goxpress/backend/global"
+	"GoXpress/backend/global"
 	"net/http"
 	"os"
 	"os/signal"
@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"goxpress/libs"
+	"GoXpress/libs"
 
 	"github.com/gorilla/mux"
 )
