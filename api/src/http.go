@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"./global"
-	"./libs"
+	"GoXpress/api/src/global"
+	"GoXpress/api/src/libs"
 
 	"github.com/gorilla/mux"
 )

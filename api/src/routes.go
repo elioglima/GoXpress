@@ -1,11 +1,11 @@
 package src
 
 import (
+	"GoXpress/api/src/global"
 	"fmt"
 	"net/http"
 	"strings"
 
-	"./global"
 	"github.com/gorilla/mux"
 )
 

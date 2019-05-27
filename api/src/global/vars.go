@@ -1,9 +1,8 @@
 package global
 
 import (
+	"GoXpress/api/src/libs"
 	"os"
-
-	"../libs"
 )
 
 const (
